@@ -15,7 +15,9 @@ Gravatar: <https://gravatar.com/eliaselliotson> \
 GitHub: <https://github.com/eliaselliotson> \
 GitLab: <https://gitlab.com/eliaselliotson> \
 Duolingo: <https://www.duolingo.com/profile/eliaselliotson> \
-Khan Academy: <https://khanacademy.org/profile/eliaselliotson>
+Khan Academy: <https://khanacademy.org/profile/eliaselliotson> \
+NPM: <https://www.npmjs.com/~eliaselliotson> \
+XBox: <https://www.xbox.com/en-US/play/user/The%20Null%20Bit>
 
 **Projects:**\
 Benton youth slides app: <https://bentonchurch.github.io/youth-lyrics/> \
