@@ -1,3 +1,11 @@
+<!-- SEO -->
+<meta name="description" content="This is the profile site of Elias Elliotson (Eli, TheNullBit, breaKthru. eliaselliotson). I code, write music, and make games.  See me on GitHub: https://github.com/eliaselliotson" />
+<meta property="og:title" content="Elias Elliotson">
+<meta property="og:site_name" content="Elias Elliotson">
+<meta property="og:url" content="https://eliaselliotson.github.io">
+<meta property="og:description" content="This is the profile site of Elias Elliotson (Eli, TheNullBit, breaKthru. eliaselliotson). I code, write music, and make games.  See me on GitHub: https://github.com/eliaselliotson">
+<meta property="og:type" content="profile">
+
 # Welcome to my website!
 
 This just a simple profile website for now, but I'll make it fully developed soon.
