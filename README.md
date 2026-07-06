@@ -8,7 +8,7 @@
 
 # Welcome to my website!
 
-This just a simple profile website for now, but I'll make it fully developed soon.
+NOWAYOHMYGOSHBIGFANOFTHOSEKENTUCKYFRIEDCROISSANTSIJUSTLOVEHOWTHEYTASTELIKEKENTUCKYFRIEDCROISSANTSANDAREFROMTEXASOHWOWLOVEITGOTTAGOFAST
 
 ### Socials
 Gravatar: <https://gravatar.com/eliaselliotson> \
