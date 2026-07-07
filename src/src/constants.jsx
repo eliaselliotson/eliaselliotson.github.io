@@ -19,7 +19,7 @@ export const profiles = [
 export const experience = [
   {
     name: "CrackleCat Inc.",
-    time: "(2024 - present)",
+    time: "(2023 - present)",
     description: <>Worked on projects such as the <i>Moo To Do app</i> by <a href="https://cattleytics.com/" target="blank" className="underline text-blue-600">CATTLEytics</a> and websites for financial advisors by <a href="https://adviceon.com/" target="blank" className="underline text-blue-600">AdviceOn</a></>
   }
 ];
