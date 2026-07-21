@@ -1,12 +1,13 @@
 import Card from "./components/card/Card.jsx";
+import NeonText from "./components/neonText/NeonText.jsx";
 import { experience, projects, profiles } from "./constants.jsx";
 
 function App() {
   return (
     <>
-      <div className="w-full h-[75vh] max-h-[75vw] flex flex-col items-center justify-center gap-3 md:gap-4 lg:gap-5 text-center px-[10%]" style={{ background: "linear-gradient(#ffffffcc, #ffffff00), radial-gradient(#ffffff, #eeeeee, #cccccc)" }}>
-        <h1 className="font-[Geom] font-black text-5xl md:text-7xl lg:text-8xl text-fuchsia-500 text-transparent bg-clip-text" style={{ backgroundImage: "linear-gradient(135deg, #e12afb, #155dfc)", WebkitBackgroundClip: "text" }}>Elias Elliotson</h1>
-        <p className="font-[Geom] text-base lg:text-xl font-medium text-gray-700 text-center">
+      <div className="w-full h-[75vh] max-h-[75vw] flex flex-col items-center justify-center gap-3 md:gap-4 lg:gap-5 text-center px-[10%]" style={{ background: "linear-gradient(#11111100, #111111cc), radial-gradient(#292929, #161616, #000000)" }}>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl"><NeonText dark color="#e12afb">Elias</NeonText> <NeonText dark color="#2b7fff">Elliotson</NeonText></h1>
+        <p className="font-[Geom] text-base lg:text-xl font-medium text-gray-400 text-center">
           I'm a 17-year-old web developer with over 3 years of professional experience.
         </p>
       </div>

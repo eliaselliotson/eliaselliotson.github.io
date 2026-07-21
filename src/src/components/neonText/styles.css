@@ -1,0 +1,78 @@
+/* Container rules */
+.neon-text {
+  --border-size: 0.1em;
+  --glow-blur: 0.25em;
+  
+  margin: calc(-1 * var(--border-size));
+  display: inline-grid;
+  grid-template-areas: "stack";
+  align-items: center;
+  justify-items: center;
+}
+
+/* Gradient directions */
+.neon-text.horizontal {
+  --border-angle: 90deg;
+  --fill-angle: 90deg;
+}
+
+.neon-text.vertical {
+  --border-angle: 180deg;
+  --fill-angle: 180deg;
+}
+
+/* Common layer rules */
+.neon-text > span {
+  padding: var(--border-size);
+  user-select: none;
+  grid-area: stack;
+  font-weight: 600;
+  letter-spacing: calc(var(--border-size) / 2);
+}
+
+/* Glowing layer of the neon text */
+.neon-text .glow {
+  filter: blur(var(--glow-blur));
+  color: var(--glow-col);
+  z-index: 10;
+}
+
+/* Border layer of the neon text */
+.neon-text .border {
+  background: linear-gradient(var(--border-angle), var(--border-col-1), var(--border-col-2));
+  color: transparent;
+  -webkit-text-stroke: var(--border-size) transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  z-index: 11;
+}
+
+/* Filled layer of the neon text */
+.neon-text .fill {
+  background: linear-gradient(var(--fill-angle), var(--fill-col-1), var(--fill-col-2));
+  background-size: auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  z-index: 12;
+}
+
+/* Grid overlay layer of the neon text */
+.neon-text .grid {
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggc3Ryb2tlPSIjZmZmIiBkPSJNNiAwdjEyTTAgNmgxMiIvPjwvc3ZnPg==");
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  z-index: 13;
+  
+  mask-image: linear-gradient(var(--fill-angle), transparent, white, white);
+  -webkit-mask-image: linear-gradient(var(--fill-angle), #fff0 0%, #fff1 40%, #fff8 80%, #fff8 100%);
+
+}
+
+/* Selectable/accessable layer of the text */
+.neon-text .real {
+  z-index: 14;
+  user-select: text;
+  color: transparent;
+}
