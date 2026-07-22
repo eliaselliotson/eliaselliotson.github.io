@@ -14,6 +14,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+        '404': resolve(__dirname, '404.html'),
         googleVerification: resolve(__dirname, 'google0e1dd233d3ea12dd.html'),
       },
     },
