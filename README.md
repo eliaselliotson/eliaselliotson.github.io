@@ -8,3 +8,5 @@ This is the codebase for my website! Feel free to browse the code and see how it
   - 27th: https://cdn.subsplash.com/documents/J8B3MF/_source/a444c497-c207-4806-9da9-b8e9597ebde5/document.pdf
   - 28th: https://cdn.subsplash.com/documents/J8B3MF/_source/d29317f8-7e8d-4d88-987e-d901c373e111/document.pdf
 - Coldest night of the year?
+- Manitoulin missions
+- Life Action camp work
