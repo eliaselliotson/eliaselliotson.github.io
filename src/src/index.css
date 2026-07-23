@@ -1,10 +1,11 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-:root {
+* {
   color-scheme: only light;
 }
 
 body {
   margin: 0px;
+  background: white;
 }
