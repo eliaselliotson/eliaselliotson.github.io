@@ -8,5 +8,5 @@ export default function ParticleEffect() {
     new ParticleCanvas(canvasRef.current);
   }, []);
 
-  return <canvas className="absolute top-0 left-0 opacity-50" ref={canvasRef}></canvas>;
+  return <canvas className="absolute top-0 left-0 opacity-30" ref={canvasRef}></canvas>;
 }

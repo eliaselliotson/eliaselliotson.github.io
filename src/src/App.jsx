@@ -7,12 +7,16 @@ import { experience, projects, profiles } from "./constants.jsx";
 function App() {
   return (
     <>
-      <div className="relative w-full h-[75vh] max-h-[75vw] flex flex-col items-center justify-center gap-3 md:gap-4 lg:gap-5 text-center px-[10%]" style={{ background: "linear-gradient(#11111100, #111111cc), radial-gradient(#292929, #161616, #000000)" }}>
+      <div className="relative w-full h-screen flex flex-col items-center justify-center gap-3 md:gap-4 lg:gap-5 text-center px-[10%]" style={{ background: "linear-gradient(#11111100, #111111cc), radial-gradient(#292929, #161616, #000000)" }}>
         <ParticleEffect />
         <h1 className="font-[Geom] text-5xl md:text-7xl lg:text-8xl"><NeonText dark color="#e12afb">Elias</NeonText> <NeonText dark color="#2b7fff">Elliotson</NeonText></h1>
         <p className="font-[Geom] text-base lg:text-xl font-medium text-gray-400 text-center">
           17-year-old web developer with 3+ years of professional experience
         </p>
+        <div className="absolute font-[Geom] text-white flex flex-col items-center animate-pulse w-full bottom-1/8">
+          <i className="bi bi-arrow-down text-4xl"></i>
+          <span className="select-none text-md">Scroll down</span>
+        </div>
       </div>
 
       <div className="w-full flex flex-col gap-15 md:gap-20 my-15 md:my-20 px-[10%]">
