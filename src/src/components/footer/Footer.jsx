@@ -2,7 +2,7 @@ import { profiles } from "../../constants.jsx"
 
 export default function Footer() {
   return (
-    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 lg:px-20">
+    <footer className="font-[Geom] footer sm:footer-horizontal bg-neutral text-neutral-content p-10 lg:px-20">
       <aside>
         <svg
           alt="Placeholder icon"
