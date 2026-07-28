@@ -15,6 +15,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         '404': resolve(__dirname, '404.html'),
+        photos: resolve(__dirname, 'photos.html'),
         googleVerification: resolve(__dirname, 'google0e1dd233d3ea12dd.html'),
       },
     },
