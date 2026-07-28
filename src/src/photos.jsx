@@ -18,7 +18,7 @@ createRoot(document.getElementById('root')).render(
           <p className="font-[Geom] text-center">This page is still undergoing development and will be made public shortly. In the meantime, please admire this inspirational quote:</p>
         </div>
         <div className="font-[Geom] flex flex-col md:flex-row items-center max-w-300 gap-6">
-          <img className="w-56 rounded ratio-1" src={"/photos/baby-philosopher.jpeg"} />
+          <img className="w-56 rounded ratio-1" alt="Greyscale photo of baby Eli deep in thought" src={"/photos/baby-philosopher.jpeg"} />
           <div>
             <p>It is commonly said that a picture is worth a thousand words. However, it is apparent to me that the precise value of an image may vary quite a bit as factors such as the format, resolution, color depth, and compression ratio come into play. Furthermore, it is obvious that words have varying values themselves, and thus before we can even concern ourselves with the value of an image we must produce a reasonable measurement to describe the value of the average word. It is this very dilemma that provoked me to invent the kilobyte.</p>
             <br />
