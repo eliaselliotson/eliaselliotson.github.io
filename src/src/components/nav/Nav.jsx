@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import { useScrollThreshold } from "../../utilities/scrollThreshold.js";
 import { projects } from "../../constants.jsx";
 
-export default function Nav() {
-  let isFloating = useScrollThreshold(48);
+export default function Nav({ floating }) {
+  let isFloating = floating || useScrollThreshold(48);
 
   return (
-    <div data-theme="dark" className={`font-[Geom] navbar fixed z-100 border-neutral-800 ${isFloating ? "bg-neutral shadow-lg border-b-0 lg:px-40 lg:mx-0" : "bg-transparent border-b-1 lg:mx-40 lg:px-0"} text-neutral-content w-auto left-0 right-0`}>
+    <div data-theme="dark" className={`font-[Geom] navbar fixed z-100 ${isFloating ? "bg-neutral shadow-lg lg:px-40 lg:mx-0" : "bg-transparent lg:mx-20 lg:px-20"} text-neutral-content w-auto left-0 right-0`}>
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

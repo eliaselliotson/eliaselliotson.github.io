@@ -1,15 +1,12 @@
 import Card from "./components/card/Card.jsx";
-import Footer from "./components/footer/Footer.jsx";
-import Nav from "./components/nav/Nav.jsx";
+import Layout from "./components/layout/Layout.jsx";
 import NeonText from "./components/neonText/NeonText.jsx";
 import ParticleEffect from "./components/particleEffect/ParticleEffect.jsx";
 import { experience, projects, profiles } from "./constants.jsx";
 
 function App() {
   return (
-    <>
-      <Nav />
-      
+    <Layout>
       <div className="relative w-full h-screen flex flex-col items-center justify-center gap-3 md:gap-4 lg:gap-5 text-center px-[10%]" style={{ background: "linear-gradient(#11111100, #111111cc), radial-gradient(#292929, #161616, #000000)" }}>
         <ParticleEffect />
         <h1 className="font-[Geom] text-5xl md:text-7xl lg:text-8xl"><NeonText dark color="#e12afb">Elias</NeonText> <NeonText dark color="#2b7fff">Elliotson</NeonText></h1>
@@ -50,9 +47,7 @@ function App() {
           </div>
         </div>
       </div>
-
-      <Footer />
-    </>
+    </Layout>
   )
 }
 
