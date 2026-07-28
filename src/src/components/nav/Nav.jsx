@@ -22,12 +22,13 @@ export default function Nav({ floating }) {
                 {projects.map((e, i) => <li key={i}><a href={e.url}>{e.name}</a></li>)}
               </ul>
             </li>
+            <li><a href="/photos">Photos</a></li>
           </ul>
         </div>
         <a className="text-xl " href="/">Elias Elliotson</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal p-0">
           <li><a className="btn btn-ghost" href="/">Home</a></li>
           <li>
             <div className="dropdown dropdown-bottom dropdown-center p-0">
@@ -37,6 +38,7 @@ export default function Nav({ floating }) {
               </ul>
             </div>
           </li>
+          <li><a className="btn btn-ghost" href="/photos">Photos</a></li>
         </ul>
       </div>
       <div className="navbar-end">
