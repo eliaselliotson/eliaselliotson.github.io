@@ -6,7 +6,7 @@ export default function Nav({ floating }) {
   let isFloating = floating || useScrollThreshold(48);
 
   return (
-    <div data-theme="dark" className={`font-[Geom] navbar fixed z-100 ${isFloating ? "bg-neutral shadow-lg lg:px-40 lg:mx-0" : "bg-transparent lg:mx-20 lg:px-20"} text-neutral-content w-auto left-0 right-0`}>
+    <div data-theme="dark" className={`font-[Geom] navbar fixed z-100 ${isFloating ? "bg-neutral shadow-lg" : "bg-transparent"} text-neutral-content w-auto left-0 right-0 lg:px-40 lg:mx-0`}>
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
