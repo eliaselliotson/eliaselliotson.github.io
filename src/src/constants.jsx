@@ -26,8 +26,8 @@ export const experience = [
 
 export const projects = [
   {
-    name: "Benton Youth Slides",
-    url: "https://bentonchurch.github.io/youth-lyrics/",
+    name: "WorshipHub",
+    url: "https://eliaselliotson.github.io/worshiphub/",
     description: "A slides app custom built for Benton St. Baptist Church's youth group."
   },
   {
