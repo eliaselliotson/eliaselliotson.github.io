@@ -31,8 +31,8 @@ export const projects = [
     description: "A slides app custom built for Benton St. Baptist Church's youth group."
   },
   {
-    name: "Daily Bible Readings",
-    url: "https://bentonchurch.github.io/bible-readings/",
+    name: "The Bible Habit",
+    url: "https://eliaselliotson.github.io/thebiblehabit/",
     description: "A simple bible study platform I developed for a friend of mine."
   },
   {
