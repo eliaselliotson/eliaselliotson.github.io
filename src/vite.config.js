@@ -16,7 +16,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         '404': resolve(__dirname, '404.html'),
         photos: resolve(__dirname, 'photos.html'),
-        bibleReadingsRedirect: resolve(__dirname, 'bible-readings.html'),
+        bibleReadingsRedirect: resolve(__dirname, '/bible-readings/index.html'),
         googleVerification: resolve(__dirname, 'google0e1dd233d3ea12dd.html'),
       },
     },
