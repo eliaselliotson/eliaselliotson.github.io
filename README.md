@@ -14,6 +14,9 @@ This is the codebase for my website! Feel free to browse the code and see how it
 - Ardiuno course
 
 ## Awards
+
+#### Mathematics
+
 - **Certificate of Distinction** _(top 13.23% of scorers)_\
   2025 Cayley Contest by CEMC at University of Waterloo
 
