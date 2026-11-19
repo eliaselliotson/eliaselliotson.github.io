@@ -12,3 +12,10 @@ This is the codebase for my website! Feel free to browse the code and see how it
 - Life Action camp work
 - Benton tech team/kids ministry
 - Ardiuno course
+
+## Awards
+- **Certificate of Distinction** _(top 13.23% of scorers)_\
+  2025 Cayley Contest by CEMC at University of Waterloo
+
+- **Certificate of Distinction** _(pending official review)_\
+  2026 Canadian Senior Mathematics Contest (CSMC) by CEMC at University of Waterloo 
