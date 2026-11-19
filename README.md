@@ -9,6 +9,7 @@ This is the codebase for my website! Feel free to browse the code and see how it
 - Ardiuno course?
 - Game Jams ([ZandtJam #5](https://itch.io/jam/zandtjam-5) and [Micro Jam 045](https://itch.io/jam/micro-jam-045))
 - _FIRST_ Lego League Challenge (BambisanaBots, team #39917, 2018-2019)
+- Did tech at 1 funeral (find the name), 2 weddings (Larsons and Terpstras)
 
 ## Volunteer work
 
