@@ -8,6 +8,7 @@ This is the codebase for my website! Feel free to browse the code and see how it
 - Benton tech team/kids ministry
 - Ardiuno course?
 - Game Jams ([ZandtJam #5](https://itch.io/jam/zandtjam-5) and [Micro Jam 045](https://itch.io/jam/micro-jam-045))
+- _FIRST_ Lego League Challenge (BambisanaBots, team #39917, 2018-2019)
 
 ## Volunteer work
 
